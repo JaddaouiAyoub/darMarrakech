@@ -51,7 +51,7 @@ La spécification du projet et la maquette visuelle approuvée sont conservées 
 ## Avancement
 
 - [x] Phase 1 — Initialisation
-- [ ] Phase 2 — Fondations du design system
+- [x] Phase 2 — Fondations du design system
 - [ ] Phase 3 — Composants partagés (header, navigation, footer)
 - [ ] Phase 4 — Page d'accueil
 - [ ] Phase 5 — Pages internes

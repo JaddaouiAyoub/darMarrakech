@@ -1,69 +1,108 @@
-import Image from "next/image";
+import { ArrowRight, CalendarDays, UtensilsCrossed } from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import { Container } from "@/components/ui/Container";
+import { Ornament } from "@/components/ui/Ornament";
+import { SectionHeading } from "@/components/ui/SectionHeading";
+import { formatPrice } from "@/lib/utils";
 
-export default function Home() {
+/*
+ * TEMPORARY design-system preview (Phase 2).
+ * Replaced by the real home page in Phase 4.
+ */
+
+const swatches = [
+  { name: "Deep Black", token: "ink", hex: "#160F0A", className: "bg-ink" },
+  { name: "Dark Brown", token: "espresso", hex: "#24160F", className: "bg-espresso" },
+  { name: "Warm Brown", token: "umber", hex: "#392316", className: "bg-umber" },
+  { name: "Gold", token: "gold", hex: "#D9A441", className: "bg-gold" },
+  { name: "Light Gold", token: "gold-light", hex: "#F4C66B", className: "bg-gold-light" },
+  { name: "Cream", token: "cream", hex: "#F8F1E7", className: "bg-cream" },
+  { name: "Muted Text", token: "muted", hex: "#B9AA99", className: "bg-muted" },
+  { name: "Bronze", token: "bronze", hex: "#8A5C17", className: "bg-bronze" },
+];
+
+export default function DesignPreview() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <main className="flex-1">
+      {/* Dark surface: hero typography and primary actions */}
+      <section className="bg-zellige border-b border-gold/20 py-20 sm:py-28">
+        <Container>
+          <p className="eyebrow text-gold">Saveurs authentiques du Maroc</p>
+          <h1 className="mt-4 max-w-3xl text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
+            Une expérience culinaire <span className="text-gold">inoubliable</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mt-6 max-w-xl text-lg text-white/85">
+            Découvrez l&apos;art de la cuisine marocaine dans une ambiance chaleureuse et raffinée.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <Button href="#" size="lg" icon={<CalendarDays />} trailingIcon={<ArrowRight />}>
+              Réserver une table
+            </Button>
+            <Button href="#" size="lg" variant="outline" icon={<UtensilsCrossed />}>
+              Découvrir le menu
+            </Button>
+          </div>
+          <div className="mt-6">
+            <Button href="#" variant="link" trailingIcon={<ArrowRight />}>
+              Voir tout le menu
+            </Button>
+          </div>
+        </Container>
+      </section>
+
+      {/* Card surfaces */}
+      <section className="bg-espresso py-16">
+        <Container className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {["Couscous Royal", "Tajine Poulet Citron", "Pastilla"].map((name, i) => (
+            <article key={name} className="border-hairline rounded-2xl bg-umber/60 p-6 shadow-card">
+              <h3 className="text-2xl">{name}</h3>
+              <p className="mt-2 text-sm text-muted">Carte de démonstration — surface « umber ».</p>
+              <p className="mt-4 font-medium text-gold">{formatPrice([180, 120, 90][i])}</p>
+            </article>
+          ))}
+        </Container>
+      </section>
+
+      {/* Cream surface: section heading and swatches */}
+      <section className="bg-zellige-light bg-cream py-20 text-ink">
+        <Container>
+          <SectionHeading
+            tone="light"
+            eyebrow="Découvrez"
+            title="Nos Spécialités"
+            subtitle="Un voyage culinaire au cœur du Maroc."
+          />
+          <Ornament tone="light" className="mt-8" />
+          <ul className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {swatches.map((s) => (
+              <li key={s.token} className="overflow-hidden rounded-xl border border-sand bg-white">
+                <div className={`h-16 ${s.className}`} />
+                <div className="p-3 text-sm">
+                  <p className="font-medium">{s.name}</p>
+                  <p className="text-cocoa">
+                    {s.token} · {s.hex}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+            <Button href="#" variant="outline-dark">
+              Notre histoire
+            </Button>
+            <Button href="#" variant="link-dark" trailingIcon={<ArrowRight />}>
+              Découvrir notre galerie
+            </Button>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-16">
+        <Container>
+          <SectionHeading eyebrow="Réservation" title="Votre table vous attend." subtitle="Réservez votre expérience culinaire chez Dar Marrakech." />
+          <Ornament className="mt-8" />
+        </Container>
+      </section>
+    </main>
   );
 }
