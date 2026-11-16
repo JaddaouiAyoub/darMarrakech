@@ -49,6 +49,10 @@ export type MenuCategoryId =
 export type MenuCategory = {
   id: MenuCategoryId;
   label: string;
+  /** One-line introduction shown under the category title. */
+  description: string;
+  /** Banner photograph illustrating the category. */
+  image: ImageAsset;
 };
 
 export type DietaryLabel = "vegetarien" | "vegan" | "sans-gluten" | "epice";
@@ -59,7 +63,11 @@ export type MenuItem = {
   description: string;
   /** Price in MAD. Sample values — easy to edit in src/data/menu.ts. */
   price: number;
-  image: ImageAsset;
+  /**
+   * Photograph of this exact dish. Optional: dishes without a matching photo
+   * are listed without one rather than illustrated with another dish.
+   */
+  image?: ImageAsset;
   category: MenuCategoryId;
   /** Optional short badge shown on the card, e.g. "Spécialité". */
   badge?: string;

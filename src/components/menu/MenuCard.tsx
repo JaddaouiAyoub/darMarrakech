@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { formatPrice } from "@/lib/utils";
-import type { MenuItem } from "@/types";
+import type { ImageAsset, MenuItem } from "@/types";
 
 type MenuCardProps = {
-  item: MenuItem;
+  /** Cards are photographic, so the dish must have its own image. */
+  item: MenuItem & { image: ImageAsset };
   /** `sizes` hint for the responsive image. */
   sizes?: string;
 };

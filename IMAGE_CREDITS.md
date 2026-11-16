@@ -22,3 +22,10 @@ Images optimisées (WebP) depuis les originaux. Licences :
 | `public/images/gallery/tagine-zellige.webp` | HamZa NOUASRIA | [Lien](https://unsplash.com/photos/q11NM0cFFzY) | Unsplash License |
 | `public/images/gallery/lanterns.webp` | mathieu gauzy | [Lien](https://unsplash.com/photos/iuQDGVukhuE) | Unsplash License |
 | `public/images/gallery/moroccan-table.webp` | sour moha | [Lien](https://unsplash.com/photos/4Tgjeh1fWCc) | Unsplash License |
+| `public/images/dishes/soupe-terre-cuite.webp` | mana5280 | [Lien](https://unsplash.com/photos/DdZqit1Ep6A) | Unsplash License |
+| `public/images/dishes/salades-marocaines.webp` | Dee Dee | [Lien](https://unsplash.com/photos/d5vo4XDOgfs) | Unsplash License |
+| `public/images/dishes/grillades-kefta.webp` | HamZa NOUASRIA | [Lien](https://unsplash.com/photos/OrXpKuMqoAI) | Unsplash License |
+| `public/images/dishes/tajine-pruneaux.webp` | sour moha | [Lien](https://unsplash.com/photos/5t2SP3vQz28) | Unsplash License |
+| `public/images/dishes/patisseries-marocaines.webp` | Hicham Rachidi | [Lien](https://unsplash.com/photos/zNwEeU0AOaM) | Unsplash License |
+| `public/images/dishes/chebakia.webp` | kaouther djouada | [Lien](https://unsplash.com/photos/vTiE9kmIcMk) | Unsplash License |
+| `public/images/dishes/the-menthe.webp` | Massimo Adami | [Lien](https://unsplash.com/photos/Lj6OgKfNkdI) | Unsplash License |

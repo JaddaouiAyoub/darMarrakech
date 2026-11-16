@@ -106,6 +106,62 @@ export const images = {
     blurDataURL:
       "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQAgCdASoQAAsAA4BaJZgCdMn8IHEkjXy06yMXAAD8AcOHKPIZltYEwSb97y2wLbHFn9Oup/JcHpgpcSzRO9qBTXgDZ0hoWM2E3cCU6Da45jT/WI1O6ighaV7LBg5SHrLzTBIwLMIAAA==",
   },
+  soupeTerreCuite: {
+    src: "/images/dishes/soupe-terre-cuite.webp",
+    width: 1600,
+    height: 1195,
+    alt: "Soupe épicée servie dans une marmite en terre cuite",
+    blurDataURL:
+      "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAwAA4BaJbACdAD1PXLnj4gA/vLMGEPt4CwcyKFIodqTWjSKG4xM6UsGHVearrUa4+Hw3jzurl6uFEJaKymbJkj5KWoIRSssDE7wwAA=",
+  },
+  saladesMarocaines: {
+    src: "/images/dishes/salades-marocaines.webp",
+    width: 1600,
+    height: 1890,
+    alt: "Salades marocaines cuisinées servies dans de petits plats en terre cuite, à côté de tajines",
+    blurDataURL:
+      "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAADwAwCdASoQABMAPu1iqU2ppaOiMAgBMB2JbACdMoAlrAhGr4mCrHrQAPqQTeEJEm38E6M2sfF7Bv4IlT8d0MVyFewZJZXptfK6Rtd2ZLFTH9qTIM/knKFIBmsVndfa+5d+BNaovWJX1WZn6aWODNtelz0EToThem/OCJbCmz/UUAZ84UV09DSHGDuPkSHtpAAAAA==",
+  },
+  grilladesKefta: {
+    src: "/images/dishes/grillades-kefta.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Plateau de viandes grillées, tomates et herbes sur une table en zellige",
+    blurDataURL:
+      "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABwAgCdASoQAAsAA4BaJagCdAYv1qvu2NNFjP0gAPY32p4mfnwGJ4SUj/1WfvFhEM8xjZ4KFxvR/z5ammNJecuiXew4DbgNjZFZbYSiDabxXUE6CVHXzX0YSnZPccFOOYusR9LpMUI00wAA",
+  },
+  tajinePruneaux: {
+    src: "/images/dishes/tajine-pruneaux.webp",
+    width: 1600,
+    height: 1068,
+    alt: "Tajine de viande aux pruneaux partagé à table",
+    blurDataURL:
+      "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAsAA4BaJbACdAEDxrT5HSuIAAD+0WNm2szYDi3m6vOMBHmNIbIkhV4Oq43Q9oi1clJYroMf6INa5ybIIBtJrFT3+LBvqgzbVOgNdjV9S0UY36i3ek8PiGgAAA==",
+  },
+  patisseriesMarocaines: {
+    src: "/images/dishes/patisseries-marocaines.webp",
+    width: 1600,
+    height: 2400,
+    alt: "Plateau de pâtisseries marocaines traditionnelles variées",
+    blurDataURL:
+      "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYgCdMoCGAZ2urM1F+0jCM2u5cAAA9w0k2Um5CuA141qPtTq2VM3VVI59X/n0E90VVlgs6bDvOSqZuAomh/mt/vYavR3+7DUFQV4cjys/OKIJ619+UmiiRESxwXKijSbRnDoT8vPILGLc/BgdevETWY4A2TA3HqNGjYRi1PNT9RvFEowkJS6ZmwO0uZKzsVSMVQAA",
+  },
+  chebakia: {
+    src: "/images/dishes/chebakia.webp",
+    width: 1200,
+    height: 908,
+    alt: "Chebakia, pâtisseries marocaines au miel et au sésame",
+    blurDataURL:
+      "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAwAA4BaJbACdAYuRId37EuQAP7opqQ4JzkcP4eUEP6IqwoOOir8ehRSU2xLqrw+MCBctZnxUO6Ju1ybYB8ywQeNXWOn54Go1zWzvlWzPehZuiEwYWnvw4CxAAAA",
+  },
+  theMenthe: {
+    src: "/images/dishes/the-menthe.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Verres de thé à la menthe fraîche alignés sur des soucoupes",
+    blurDataURL:
+      "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQAgCdASoQAAsAA4BaJZgCdAYsZ2qxkPbmZQAA/sIE+LhKPLH8a6Srtzc/btk+U8zD2BWCGq8Hg9f7NGLalj8O9wUonw1mi7tEvXm2/7GvG4UUYRlgT7jaiFIt0F7yNX1TWcFbVKrQGHxhS1MGiy8AAAA=",
+  },
 } satisfies Record<string, ImageAsset>;
 
 export type ImageKey = keyof typeof images;

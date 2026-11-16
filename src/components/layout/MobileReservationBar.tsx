@@ -27,7 +27,7 @@ export function MobileReservationBar() {
     <AnimatePresence>
       {visible && (
         <motion.div
-          className="fixed inset-x-0 bottom-0 z-40 border-t border-gold/20 bg-ink/95 px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-card sm:px-6 lg:hidden"
+          className="fixed inset-x-0 bottom-0 z-40 border-t border-gold/20 bg-ink px-4 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-card sm:px-6 lg:hidden"
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
           exit={{ y: "100%" }}
