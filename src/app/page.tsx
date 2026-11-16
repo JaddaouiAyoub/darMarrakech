@@ -23,9 +23,9 @@ const swatches = [
 
 export default function DesignPreview() {
   return (
-    <main className="flex-1">
+    <div>
       {/* Dark surface: hero typography and primary actions */}
-      <section className="bg-zellige border-b border-gold/20 py-20 sm:py-28">
+      <section className="bg-zellige border-b border-gold/20 pt-36 pb-20 sm:pb-28 lg:pt-44">
         <Container>
           <p className="eyebrow text-gold">Saveurs authentiques du Maroc</p>
           <h1 className="mt-4 max-w-3xl text-5xl leading-[1.05] sm:text-6xl lg:text-7xl">
@@ -103,6 +103,6 @@ export default function DesignPreview() {
           <Ornament className="mt-8" />
         </Container>
       </section>
-    </main>
+    </div>
   );
 }

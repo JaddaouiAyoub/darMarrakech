@@ -1,5 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
+import { MobileReservationBar } from "@/components/layout/MobileReservationBar";
+import { MotionProvider } from "@/components/layout/MotionProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -32,7 +36,22 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="fr" className={`${inter.variable} ${playfair.variable} h-full`}>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <a
+          href="#contenu"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[70] focus:rounded-full focus:bg-gold focus:px-5 focus:py-3 focus:text-sm focus:font-medium focus:text-ink"
+        >
+          Aller au contenu
+        </a>
+        <MotionProvider>
+          <Header />
+          <main id="contenu" tabIndex={-1} className="flex-1 focus:outline-none">
+            {children}
+          </main>
+          <Footer />
+          <MobileReservationBar />
+        </MotionProvider>
+      </body>
     </html>
   );
 }
