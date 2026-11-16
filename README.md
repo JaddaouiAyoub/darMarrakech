@@ -53,9 +53,13 @@ La spécification du projet et la maquette visuelle approuvée sont conservées 
 - [x] Phase 1 — Initialisation
 - [x] Phase 2 — Fondations du design system
 - [x] Phase 3 — Composants partagés (header, navigation, footer)
-- [ ] Phase 4 — Page d'accueil
+- [x] Phase 4 — Page d'accueil
 - [ ] Phase 5 — Pages internes
 - [ ] Phase 6 — Qualité finale (accessibilité, SEO, performance)
+
+## Photographies
+
+Les photos actuelles sont des images libres de droits (Unsplash, CC0) utilisées à titre d'illustration. Voir [`IMAGE_CREDITS.md`](IMAGE_CREDITS.md). Elles sont déclarées dans `src/data/media.ts` et seront remplacées par les photos réelles du restaurant.
 
 ## Informations à fournir
 
