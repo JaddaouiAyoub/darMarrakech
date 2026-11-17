@@ -1,4 +1,4 @@
-import type { ContactFormValues } from "./validations";
+import type { ContactFormValues, ReservationFormValues } from "./validations";
 
 /*
  * Form submission placeholders.
@@ -16,5 +16,15 @@ const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 export async function submitContactMessage(values: ContactFormValues): Promise<SubmissionResult> {
   void values; // will be sent to the future endpoint
   await wait(800);
+  return { status: "not-configured" };
+}
+
+/**
+ * Reservation requests are not transmitted: confirming a table requires a
+ * booking service (or a backend connected to the restaurant's planning).
+ */
+export async function submitReservationRequest(values: ReservationFormValues): Promise<SubmissionResult> {
+  void values; // will be sent to the future booking integration
+  await wait(900);
   return { status: "not-configured" };
 }

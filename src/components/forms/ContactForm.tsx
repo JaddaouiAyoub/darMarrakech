@@ -107,7 +107,7 @@ export function ContactForm() {
           rows={6}
           placeholder="Votre message…"
           className={cn(inputClasses, "resize-y")}
-          {...fieldAria("contact-message", errors.message?.message, "10 caractères minimum.")}
+          {...fieldAria("contact-message", errors.message?.message, true)}
           {...register("message")}
         />
       </FormField>

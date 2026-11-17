@@ -54,7 +54,7 @@ La spécification du projet et la maquette visuelle approuvée sont conservées 
 - [x] Phase 2 — Fondations du design system
 - [x] Phase 3 — Composants partagés (header, navigation, footer)
 - [x] Phase 4 — Page d'accueil
-- [ ] Phase 5 — Pages internes
+- [x] Phase 5 — Pages internes
 - [ ] Phase 6 — Qualité finale (accessibilité, SEO, performance)
 
 ## Photographies

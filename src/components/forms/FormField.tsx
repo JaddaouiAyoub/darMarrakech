@@ -50,11 +50,11 @@ export function FormField({ id, label, required, error, hint, className, childre
   );
 }
 
-/** aria props for a control rendered inside <FormField>. */
-export function fieldAria(id: string, error?: string, hint?: string) {
+/** aria props for a control rendered inside <FormField>. Pass `hasHint` when the field shows a hint. */
+export function fieldAria(id: string, error?: string, hasHint = false) {
   return {
     id,
     "aria-invalid": error ? true : undefined,
-    "aria-describedby": error ? `${id}-error` : hint ? `${id}-hint` : undefined,
+    "aria-describedby": error ? `${id}-error` : hasHint ? `${id}-hint` : undefined,
   } as const;
 }
