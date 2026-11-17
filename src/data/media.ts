@@ -26,6 +26,14 @@ export const images = {
     blurDataURL:
       "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAA0AA4BaJQBYdiG9YxMuvsMQAP70nV+Ei8Tfqdwt+vXZm13cj2+5+iHxW6S14i8vZWQcLm/YjfQZxdqbOT5h8Hn+G5iyiwTxKhQIoSYMYFnaAAA=",
   },
+  heroTajine: {
+    src: "/images/hero/tajine.webp",
+    width: 1024,
+    height: 1024,
+    alt: "Tajine d'agneau aux pruneaux et amandes dans un plat en terre cuite décoré",
+    blurDataURL:
+      "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAADwAgCdASoQABAAA4BaJbACdAdbPYXvIDts/8IG9iTQAAD+waReg5Ko+WPM4z3SHqX1jahbPznc7f7ISnqXIckVXE9Jyq0aYBFWBCNig3MUcu47cGRRMTaI7iegpDdTahmcuYERv/1vcDHi+/GhN+f8e8zcN2JZ1CejFhsNYYROrlaLAOht2AAA",
+  },
   couscousRoyal: {
     src: "/images/dishes/couscous-royal.webp",
     width: 1200,

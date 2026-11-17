@@ -12,6 +12,7 @@ Images optimisées (WebP) depuis les originaux. Licences :
 |---|---|---|---|
 | `public/images/hero/hero-interior.webp` | Ray Lee | [Lien](https://unsplash.com/photos/b6cFnIbvWyA) | Unsplash License |
 | `public/images/hero/hero-dish.webp` | Louis Hansel | [Lien](https://unsplash.com/photos/k2ZCm7LCj8E) | Unsplash License |
+| `public/images/hero/tajine.webp` | Fourni par le client | Source à préciser | À préciser |
 | `public/images/dishes/couscous-royal.webp` | Marco Palumbo | [Lien](https://unsplash.com/photos/0TJqrLinYY4) | Unsplash License |
 | `public/images/dishes/tajine-poulet-citron.webp` | Hakan Çınar | [Lien](https://unsplash.com/photos/X4tB4EiWhGM) | Unsplash License |
 | `public/images/dishes/tajine-kefta.webp` | Chloé Lefleur | [Lien](https://unsplash.com/photos/SOmuG-oF6VA) | Unsplash License |

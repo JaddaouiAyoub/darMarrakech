@@ -59,13 +59,13 @@ export function Hero() {
               <div aria-hidden="true" className="absolute -inset-10 rounded-full border border-gold/10" />
               <div className="relative size-full overflow-hidden rounded-full shadow-[0_40px_80px_-30px_rgb(0_0_0/0.9)] ring-1 ring-gold/50">
                 <Image
-                  src={images.heroDish.src}
-                  alt={images.heroDish.alt}
+                  src={images.heroTajine.src}
+                  alt={images.heroTajine.alt}
                   fill
                   sizes="(min-width: 1024px) 30rem, 1px"
                   placeholder="blur"
-                  blurDataURL={images.heroDish.blurDataURL}
-                  className="scale-[1.18] object-cover object-[48%_55%]"
+                  blurDataURL={images.heroTajine.blurDataURL}
+                  className="scale-[1.1] object-cover object-[48%_55%]"
                 />
               </div>
             </div>
