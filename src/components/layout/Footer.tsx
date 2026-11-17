@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Container } from "@/components/ui/Container";
 import { Ornament } from "@/components/ui/Ornament";
+import { PlaceholderTag } from "@/components/ui/PlaceholderTag";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 import {
   brand,
@@ -20,14 +21,6 @@ import { Logo } from "./Logo";
 
 function ColumnTitle({ children }: { children: ReactNode }) {
   return <h2 className="eyebrow mb-5 text-gold">{children}</h2>;
-}
-
-function PlaceholderTag() {
-  return (
-    <span className="ml-2 inline-block rounded-full border border-gold/30 px-2 py-0.5 align-middle text-[0.625rem] font-medium tracking-wider text-gold/80 uppercase">
-      À confirmer
-    </span>
-  );
 }
 
 function ContactLine({ icon: Icon, label, item }: { icon: LucideIcon; label: string; item: BusinessValue }) {

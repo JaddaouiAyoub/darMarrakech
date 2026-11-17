@@ -4,6 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { MobileReservationBar } from "@/components/layout/MobileReservationBar";
 import { MotionProvider } from "@/components/layout/MotionProvider";
+import { Toaster } from "@/components/ui/Toaster";
 import "./globals.css";
 
 const inter = Inter({
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </main>
           <Footer />
           <MobileReservationBar />
+          <Toaster />
         </MotionProvider>
       </body>
     </html>
