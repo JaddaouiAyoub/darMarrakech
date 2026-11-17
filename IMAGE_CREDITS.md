@@ -29,3 +29,18 @@ Images optimisées (WebP) depuis les originaux. Licences :
 | `public/images/dishes/patisseries-marocaines.webp` | Hicham Rachidi | [Lien](https://unsplash.com/photos/zNwEeU0AOaM) | Unsplash License |
 | `public/images/dishes/chebakia.webp` | kaouther djouada | [Lien](https://unsplash.com/photos/vTiE9kmIcMk) | Unsplash License |
 | `public/images/dishes/the-menthe.webp` | Massimo Adami | [Lien](https://unsplash.com/photos/Lj6OgKfNkdI) | Unsplash License |
+| `public/images/restaurant/medersa-patio.webp` | Alex Azabache | [Lien](https://unsplash.com/photos/YSabBvW1aR4) | Unsplash License |
+| `public/images/restaurant/souk-epices.webp` | zakariae daoui | [Lien](https://unsplash.com/photos/Dql2_LN5sRg) | Unsplash License |
+| `public/images/restaurant/cuisson-tajine.webp` | Renaud Confavreux | [Lien](https://unsplash.com/photos/2rhlMSmeeXE) | Unsplash License |
+| `public/images/restaurant/epices-ingredients.webp` | Marco Palumbo | [Lien](https://unsplash.com/photos/W5nn3MZFxhA) | Unsplash License |
+| `public/images/gallery/fontaine-zellige.webp` | Niklas | [Lien](https://unsplash.com/photos/VqouWpsuziE) | Unsplash License |
+| `public/images/gallery/plafond-sculpte.webp` | mana5280 | [Lien](https://unsplash.com/photos/aHHUV_sRcBM) | Unsplash License |
+| `public/images/gallery/porte-sculptee.webp` | Youssef Mubarak | [Lien](https://unsplash.com/photos/xTNoRAhUza4) | Unsplash License |
+| `public/images/gallery/motif-zellige.webp` | Bernd Dittrich | [Lien](https://unsplash.com/photos/KXy4bNsCUkw) | Unsplash License |
+| `public/images/gallery/tajine-table.webp` | Annie Spratt | [Lien](https://unsplash.com/photos/wGzO3Qvp98Q) | Unsplash License |
+| `public/images/gallery/lanterne-ciselee.webp` | Samuel Ramos | [Lien](https://unsplash.com/photos/bAg-p3i2Xbk) | Unsplash License |
+| `public/images/gallery/the-patisseries.webp` | Rachid Oucharia | [Lien](https://unsplash.com/photos/VBW7PlDhzWU) | Unsplash License |
+| `public/images/gallery/table-chandelles.webp` | M F | [Lien](https://unsplash.com/photos/fb0_wj2MZk4) | Unsplash License |
+| `public/images/gallery/reception-soiree.webp` | Vidit Goswami | [Lien](https://unsplash.com/photos/nBq1rdToEXY) | Unsplash License |
+| `public/images/gallery/lanternes-jardin.webp` | Vidit Goswami | [Lien](https://unsplash.com/photos/W1OBesc7hmA) | Unsplash License |
+| `public/images/gallery/repas-partage.webp` | Charles-Albert Clarysse | [Lien](https://unsplash.com/photos/-5B_sfWV2TE) | Unsplash License |

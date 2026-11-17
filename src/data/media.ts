@@ -162,6 +162,126 @@ export const images = {
     blurDataURL:
       "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQAgCdASoQAAsAA4BaJZgCdAYsZ2qxkPbmZQAA/sIE+LhKPLH8a6Srtzc/btk+U8zD2BWCGq8Hg9f7NGLalj8O9wUonw1mi7tEvXm2/7GvG4UUYRlgT7jaiFIt0F7yNX1TWcFbVKrQGHxhS1MGiy8AAAA=",
   },
+  medersaPatio: {
+    src: "/images/restaurant/medersa-patio.webp",
+    width: 1067,
+    height: 1600,
+    alt: "Cour d'une médersa marocaine aux arcades sculptées et murs de zellige",
+    blurDataURL:
+      "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JQBdmUABN+13+bhuXTMn6mhiM1kAA/u9jJvC7O0gG0QukLuUxRS3TCTdzQSB+/QQa9h15R6Zd99KVLOTW7MMbc7oVgInQS2nmT9YJozkK3O7P9eiqPQkT4crsrgt5Ev5Z+iZD0+WbondSjdaHI9OxbCBSO+DK4AA=",
+  },
+  soukEpices: {
+    src: "/images/restaurant/souk-epices.webp",
+    width: 1200,
+    height: 1600,
+    alt: "Étal d'épices, d'herbes et de fleurs séchées dans un souk marocain",
+    blurDataURL:
+      "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JbACdMoR3ACBBN1OHNHjwrKNwFYAA9qN7gCCy6AsTOedpN8Hwd3j6yOzqKblYdFSzzsI7WEPqGvSKI1tiL70D+UcTR/n1SVs9YEeCmsywi6fz7Vez8I/OCi6EU/pUsZuszUbkg2yzZGnP/55FlWQx7+nlW8W00697fu3g7NkFhbDCnwjeQjDGcF6Nc1CGhNrFdS7fJ4d+AAAA",
+  },
+  cuissonTajine: {
+    src: "/images/restaurant/cuisson-tajine.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Tajine de légumes en train de mijoter sur le feu",
+    blurDataURL:
+      "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAQCdASoQAAsAA4BaJZgCdADEppX5oYAA/vKzDc2OoIsl6baJZYzXPf+VZtNpHtv7kpk22pKhg0Z/yEwDWjfBgJroEAAA",
+  },
+  epicesIngredients: {
+    src: "/images/restaurant/epices-ingredients.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Bols d'épices et d'ingrédients disposés sur une table en bois",
+    blurDataURL:
+      "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQAgCdASoQAAsAA4BaJbACdAYv1WVW+FH4LvAA/ZzPwsgZphLfIo55bT37XBnbNZARRfR/VoBHXK/7DDd8TscOMLnu4R8TQAkUKbZhvSKBv2FRVYhIxTmE7ZRx/vrlCl1JMWuv9tjjlOPqzz+8BdfGVRuGZ8eD5VI8A4W4coAAAA==",
+  },
+  fontaineZellige: {
+    src: "/images/gallery/fontaine-zellige.webp",
+    width: 1600,
+    height: 1066,
+    alt: "Fontaine murale ornée de zellige et de stuc sculpté",
+    blurDataURL:
+      "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoQAAsAA4BaJYgCdAYuRyvYH+YE8wAA+gdoQFT3sg52Xkq/ry8bJwjkmXL5egnumAGAa44ZVg846uwBc741szXHGtcYlpcFhgoEzAQAAAA=",
+  },
+  plafondSculpte: {
+    src: "/images/gallery/plafond-sculpte.webp",
+    width: 979,
+    height: 1600,
+    alt: "Plafond en bois sculpté et lanterne marocaine",
+    blurDataURL:
+      "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAwBACdASoQABoAPu1qrU8ppiQiMAgBMB2JaACdLwAFpawYiZHZ+rlV5+AA/vkRgCWb6sgm2e0YJBg+XBJNUw68ldy1qG/fP8Phg5z4s/OlLHf3KfrN6/EVgiK/xDfJQn+KBscMXGXh9PajTlgDkEhYZ57LBuvh3JwKckRFQp9jhplvHPwRu4AA",
+  },
+  porteSculptee: {
+    src: "/images/gallery/porte-sculptee.webp",
+    width: 900,
+    height: 1600,
+    alt: "Porte en bois sculpté ouvrant sur un couloir carrelé de zellige",
+    blurDataURL:
+      "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoQABwAPu1iqU2ppaQiMAgBMB2JbACdMoRwAB6f6QiNLl2gPQoAAP14FKDNtBib9EYssPVhBOfX4VbzTM7XhKFHMQ7pjGrH3jgXWB8ygjj1eEUwbb78PVGSrnhT1UeDaL6uPXRU/Y/airjqSkA+r5xxYtr7Jv9uXx6oYnFuH+1UwrYaP+gAAA==",
+  },
+  motifZellige: {
+    src: "/images/gallery/motif-zellige.webp",
+    width: 1600,
+    height: 1096,
+    alt: "Motif géométrique de zellige en étoiles aux tons terre et bleu",
+    blurDataURL:
+      "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAsAA4BaJZQCdAYq/Lbr17uoAP53561k5JSKUEdCqDisiv5stU65xG33bysprkdX15MUQWcJOFrU27cQlGk5hGJIY2FEmLwi0AAA",
+  },
+  tajineTable: {
+    src: "/images/gallery/tajine-table.webp",
+    width: 1065,
+    height: 1600,
+    alt: "Tajine servi sur une table dressée aux couleurs chaudes",
+    blurDataURL:
+      "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdAYvWu6v5G8sj+DoPcjcR2AD4sXgohcrcXQxxEiXGR9hd2NFeUJdCfgn8jPj+xeCBaASaT8mezNbgG1I1G79i04mo2NlP/d/Pc6qooNFIAkr0H2XQZmKbf6vwUg4POqHLa0bG6s7UIWXl/FdojbkgJcf5hNRVDfYg5nPWoDiSWwb4cpiG4mHyZNlM5FolY9dXg/TfBKiGazurSX3OK+RjIPqw549dQ3ShqAAAAA==",
+  },
+  lanterneCiselee: {
+    src: "/images/gallery/lanterne-ciselee.webp",
+    width: 1067,
+    height: 1600,
+    alt: "Lanterne en métal ciselé diffusant une lumière chaude",
+    blurDataURL:
+      "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAACQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACxCYBMuQFKOuVAMXBa5ExPjzAA/vQiLirPcpbHBMOQae+u4mrbCYKbGr7koQeZyY+m6Rt6cNKCpj6BdCCCYLiXmoi1bA7HKe9cHBJvcie4zMLh/twxmuY5u8gfjppA7DQtnPiJSpE/Mi+3jHL+zYZ25msJUWgUSxvjKFg7jnr/JwQeVOQ3iO9xm9H+xl2xwBZ8MowD5PH1J39hIBIgAAA=",
+  },
+  thePatisseries: {
+    src: "/images/gallery/the-patisseries.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Théière marocaine et pâtisseries au miel dans un bol en céramique",
+    blurDataURL:
+      "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwAgCdASoQAAsAA4BaJQBWECYwVJNbJi5xAAD7I7KXHJc5lRpubZIf2iXYn8oaCeKTa+iJOsB5e6ZHwt4Zm24MB4pLaiSg7dID71bhjZZz2rkaKGOawxgYwoz7C8LPbHG/yzyKOh6kRIjkNOqHAAAA",
+  },
+  tableChandelles: {
+    src: "/images/gallery/table-chandelles.webp",
+    width: 1600,
+    height: 1067,
+    alt: "Longue table dressée pour un dîner, éclairée aux chandelles",
+    blurDataURL:
+      "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQAAsAA4BaJYgCdH8AGBxOTej4gAAA/vhVAtaS7JaxbMOMysjhWpHgFjKXH3PEpQSlXYOtlv1W4Uigkr13SRGOcpnOdQzuAAA=",
+  },
+  receptionSoiree: {
+    src: "/images/gallery/reception-soiree.webp",
+    width: 1179,
+    height: 1600,
+    alt: "Réception en soirée dans un jardin aux palmiers illuminé",
+    blurDataURL:
+      "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADwAwCdASoQABYAPu1mqk4ppaOiMAgBMB2JQBdgBDvtp76mwEI0wpCAAP70IyDqAkPqBJzhNm4M03C7yt5CNA2oVKg2InZ6Q9e1/rjK9UMd2ryviyfxabEbtu5P9faXRZlvrsXJkaMaSIwbfCLVsvBujZMK8vorgAA=",
+  },
+  lanternesJardin: {
+    src: "/images/gallery/lanternes-jardin.webp",
+    width: 1067,
+    height: 1600,
+    alt: "Lanternes ajourées suspendues dans les branches d'un arbre, la nuit",
+    blurDataURL:
+      "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JYwCw7CHfSgP+jLamsejyAAD+7oS63vDHkrCckzHtMbKvsVU8XQ4AKpdWxpRasJfVepG78j8JYDxdGy3y4Z0WKudmIserjcA3l/sNDAAAAA==",
+  },
+  repasPartage: {
+    src: "/images/gallery/repas-partage.webp",
+    width: 1057,
+    height: 1600,
+    alt: "Table garnie de plats marocains, pains et salades à partager",
+    blurDataURL:
+      "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAABwBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdMoAlohS8LiZcJpJ+zziMAAD2X7db2BtwbuGDtjhxPG4TCc13RqzFeBdyQdm3hv47UskhmKGVVdDBC9RbmT5BMIyRfFUC969Oa+jnqyR58F4bLoT8267Hkwbp7Fd1SpWkaKO18zCpWGOW1bhMnhh9tPZl70MdDT2Mq15iX0Rzg5BYj5ZhsIuoCAlYgGu1UiqHG/AEIoHhFF0TU4gAAAA=",
+  },
 } satisfies Record<string, ImageAsset>;
 
 export type ImageKey = keyof typeof images;

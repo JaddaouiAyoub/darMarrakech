@@ -43,7 +43,9 @@ export function MobileMenu({ open, onClose, triggerRef }: MobileMenuProps) {
         return;
       }
       if (event.key !== "Tab" || !panel) return;
-      const items = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE));
+      const items = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE)).filter(
+        (node) => node.getClientRects().length > 0,
+      );
       if (items.length === 0) return;
       const first = items[0];
       const last = items[items.length - 1];
